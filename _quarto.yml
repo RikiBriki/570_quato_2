@@ -1,0 +1,12 @@
+project: 
+  type: website
+  
+website: 
+  title: "STAT570_Quarto2"
+  navbar: 
+    left: 
+      - href: quarto_scripts.qmd
+        text: ses 
+
+
+  

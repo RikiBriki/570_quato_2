@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "quarto_scripts.html",
+    "href": "quarto_scripts.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "quarto_scripts.html#meet-quarto",
+    "href": "quarto_scripts.html#meet-quarto",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "quarto_scripts.html#meet-the-penguins",
+    "href": "quarto_scripts.html#meet-the-penguins",
+    "title": "Hello, Quarto",
+    "section": "2 Meet the penguins",
+    "text": "2 Meet the penguins\n\nThe penguins data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica. 344"
+  },
+  {
+    "objectID": "quarto_scripts.html#the-penguin-plot",
+    "href": "quarto_scripts.html#the-penguin-plot",
+    "title": "Hello, Quarto",
+    "section": "3 The Penguin Plot",
+    "text": "3 The Penguin Plot\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\nCode\nggplot(penguins, \n       aes(x = flipper_length_mm, y = bill_length_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(\n    title = \"Flipper and bill length\",\n    subtitle = \"Dimensions for penguins at Palmer Station LTER\",\n    x = \"Flipper length (mm)\", y = \"Bill length (mm)\",\n    color = \"Penguin species\", shape = \"Penguin species\"\n  ) +\n  theme_minimal()"
+  },
+  {
+    "objectID": "quarto_scripts.html#the-penguin-table",
+    "href": "quarto_scripts.html#the-penguin-table",
+    "title": "Hello, Quarto",
+    "section": "4 The Penguin Table",
+    "text": "4 The Penguin Table\n\nMy Table\n\n\nCol1\nCol2\nCol3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe table is taken from [@gokalpyavuz2020]"
+  }
+]
